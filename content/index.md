@@ -1,5 +1,5 @@
 ---
-title: Index
+title: Home
 summay: ádasdas
 background: ''
 
