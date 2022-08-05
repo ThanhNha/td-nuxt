@@ -18,5 +18,11 @@ fields:
       format: markdown
   label: Summay
   description: Viết chi tiết các mô tả
+- name: backgroundimage
+  type: file
+  config:
+    maxSize: 64
+  label: BackgroundImage
+  description: Background Section
 pages:
 - content/homepage.md
