@@ -1,4 +1,17 @@
 ---
 label: News Post
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Viết tiêu đề bài viết ở đây
+- name: summay
+  type: blocks
+  label: summay
+  template_types: []
+  config:
+    min: 
+    max: 
