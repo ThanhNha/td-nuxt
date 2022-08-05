@@ -11,9 +11,6 @@ sections:
   match: "**/*"
   templates:
   - homepage
-- type: document
-  path: content
-  label: Homepage
 upload_dir: static/uploads
 public_path: "/static/uploads"
 front_matter_path: ''
