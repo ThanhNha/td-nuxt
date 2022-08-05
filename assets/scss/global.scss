@@ -1,0 +1,88 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import 'general/variables';
+@import 'general/mixins';
+@import 'general/keyframes';
+@import 'general/component';
+@import 'general/header';
+@import 'general/footer';
+
+@import 'general/button';
+@import 'general/type';
+
+@layer base {
+  @font-face {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    src: url('~static/fonts/Roboto/Roboto-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url('~static/fonts/Roboto/Roboto-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url('~static/fonts/Roboto/Roboto-Light.ttf');
+  }
+
+  @font-face {
+    font-family: 'RobotoCondensed';
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    src: url('~static/fonts/RobotoCondensed/RobotoCondensed-Bold.ttf');
+  }
+
+  body {
+    @apply cursor-default overflow-x-hidden;
+  }
+
+  svg,
+  img {
+    @apply max-w-full max-h-full;
+  }
+
+  textarea {
+    @apply resize-none;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+}
+
+@screen md {
+  .page-enter-active,
+  .page-leave-active {
+    transition: opacity 0.1s;
+  }
+  .page-enter,
+  .page-leave-to {
+    opacity: 0;
+  }
+
+  .layout-enter-active,
+  .layout-leave-active {
+    transition: opacity 0.1s;
+  }
+  .layout-enter,
+  .layout-leave-to {
+    opacity: 0;
+  }
+}
