@@ -8,7 +8,7 @@ fields:
     required: false
   label: Title
   description: Điền tiêu đề trang chủ ở đây.
-- name: summay
+- name: summary
   type: textarea
   default: ''
   config:
@@ -16,7 +16,7 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Summay
+  label: Summary
   description: 'Điền chi tiết '
 - name: background
   type: file
