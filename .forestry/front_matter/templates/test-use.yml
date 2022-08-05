@@ -1,4 +1,9 @@
 ---
 label: test use
 hide_body: false
-fields: []
+fields:
+- name: summay
+  type: text
+  config:
+    required: false
+  label: summay
