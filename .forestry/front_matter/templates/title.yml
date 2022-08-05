@@ -7,3 +7,5 @@ fields:
   config:
     required: false
   label: title
+pages:
+- content/home/Home Section 1/nha-d-nh-hinh-phong-cach-th-ng-hi-u-chuyen-nghi-p.md
