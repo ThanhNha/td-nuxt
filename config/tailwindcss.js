@@ -67,9 +67,9 @@ module.exports = {
       }),
 
       fontFamily: {
-        display: ['Roboto', 'sans-serif'],
+        display: ['RobotoCondensed', 'sans-serif'],
         sans: [
-          'RobotoCondensed',
+          'Roboto',
           'system-ui',
           '-apple-system',
           'BlinkMacSystemFont',
