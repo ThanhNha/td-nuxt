@@ -6,6 +6,9 @@ export const mutations = {
   toggle(state) {
     state.isOpened = !state.isOpened
   },
+  closeMenu(state) {
+    state.isOpened = false
+  },
 }
 
 export const getters = {

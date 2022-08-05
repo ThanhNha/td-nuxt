@@ -23,6 +23,13 @@ export default {
             route.path = '/ve-chung-toi'
             break
 
+          case 'news':
+            route.path = '/tin-tuc'
+            break
+          case 'news-slug':
+            route.path = '/tin-tuc/:slug?'
+            break
+
           default:
             break
         }

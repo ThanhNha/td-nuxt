@@ -4,7 +4,7 @@
       id="home-section"
       class="lg:py-[300px] md:py-[240px] py-[400px] relative"
     >
-      <SBackground :ImageSrc="image"></SBackground>
+      <SBackground :ImageSrc="home.background"></SBackground>
       <div class="container">
         <div class="lg:p-12 md:p-10 p-5">
           <div class="text-center font-bold uppercase text-white typewriter">
@@ -35,6 +35,11 @@ export default {
     return {
       image: './images/home/section3.jpg',
       title: 'Truyền thông TD',
+    }
+  },
+  head() {
+    return {
+      title: 'Home page',
     }
   },
   components: { Background },

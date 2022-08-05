@@ -93,13 +93,13 @@
     width: 50%;
   }
   .menu-items {
-    li.active {
-      color: $color-white;
-      .icon-menu {
-        left: 0px;
-      }
-      a {
+    li {
+      .nuxt-link-exact-active.nuxt-link-active {
+        color: $color-white;
         padding-left: 35px;
+        .icon-menu {
+          left: 0px;
+        }
       }
     }
     li {
@@ -134,13 +134,13 @@
     @include transition;
   }
   .sub-menu {
-    li.active {
-      color: $color-white;
-      .icon-menu {
-        right: 0px;
-      }
-      a {
+    li {
+      .nuxt-link-exact-active.nuxt-link-active {
         padding-right: 35px;
+        color: $color-white;
+        .icon-menu {
+          right: 0px;
+        }
       }
     }
     li {

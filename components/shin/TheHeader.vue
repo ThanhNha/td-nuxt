@@ -31,22 +31,13 @@
         "
       >
         <div class="h-[70%] flex items-end">
-          <ul class="menu-items w-full overflow-hidden flex flex-col">
+          <ul
+            class="menu-items w-full overflow-hidden flex flex-col"
+            @click="closeMenu"
+          >
             <li class="group flex items-center relative overflow-hidden active">
-              <div
-                class="
-                  icon-menu
-                  lg:h-[35px]
-                  h-[30px]
-                  flex
-                  space-x-2
-                  duration-500
-                "
-              >
-                <div class="icon-1 w-[7px] h-full bg-pink"></div>
-                <div class="icon-1 w-[15px] h-full bg-pink"></div>
-              </div>
-              <a
+              <NuxtLink
+                :to="{ name: 'index' }"
                 class="
                   group-hover:pl-[35px]
                   block
@@ -56,25 +47,26 @@
                   group-hover:text-white
                   duration-500
                 "
-                href="index.html"
-                >Trang chủ</a
+              >
+                <div
+                  class="
+                    icon-menu
+                    lg:h-[35px]
+                    h-[30px]
+                    flex
+                    space-x-2
+                    duration-500
+                  "
+                >
+                  <div class="icon-1 w-[7px] h-full bg-pink"></div>
+                  <div class="icon-1 w-[15px] h-full bg-pink"></div>
+                </div>
+                <span>Trang chủ</span></NuxtLink
               >
             </li>
             <li class="group flex items-center relative overflow-hidden">
-              <div
-                class="
-                  icon-menu
-                  lg:h-[35px]
-                  h-[30px]
-                  flex
-                  space-x-2
-                  duration-500
-                "
-              >
-                <div class="icon-1 w-[7px] h-full bg-pink"></div>
-                <div class="icon-1 w-[15px] h-full bg-pink"></div>
-              </div>
-              <a
+              <NuxtLink
+                :to="{ name: 'about' }"
                 class="
                   group-hover:pl-[35px]
                   block
@@ -84,25 +76,26 @@
                   group-hover:text-white
                   duration-500
                 "
-                href="about.html"
-                >Giới thiệu</a
+              >
+                <div
+                  class="
+                    icon-menu
+                    lg:h-[35px]
+                    h-[30px]
+                    flex
+                    space-x-2
+                    duration-500
+                  "
+                >
+                  <div class="icon-1 w-[7px] h-full bg-pink"></div>
+                  <div class="icon-1 w-[15px] h-full bg-pink"></div>
+                </div>
+                <span>Giới thiệu</span></NuxtLink
               >
             </li>
             <li class="group flex items-center relative overflow-hidden">
-              <div
-                class="
-                  icon-menu
-                  lg:h-[35px]
-                  h-[30px]
-                  flex
-                  space-x-2
-                  duration-500
-                "
-              >
-                <div class="icon-1 w-[7px] h-full bg-pink"></div>
-                <div class="icon-1 w-[15px] h-full bg-pink"></div>
-              </div>
-              <a
+              <NuxtLink
+                :to="{ name: 'news' }"
                 class="
                   group-hover:pl-[35px]
                   block
@@ -112,120 +105,21 @@
                   group-hover:text-white
                   duration-500
                 "
-                href="solution.html"
-                >Giải pháp</a
               >
-            </li>
-            <li class="group flex items-center relative overflow-hidden">
-              <div
-                class="
-                  icon-menu
-                  lg:h-[35px]
-                  h-[30px]
-                  flex
-                  space-x-2
-                  duration-500
-                "
-              >
-                <div class="icon-1 w-[7px] h-full bg-pink"></div>
-                <div class="icon-1 w-[15px] h-full bg-pink"></div>
-              </div>
-              <a
-                class="
-                  group-hover:pl-[35px]
-                  block
-                  h2
-                  uppercase
-                  font-bold
-                  group-hover:text-white
-                  duration-500
-                "
-                href="news.html"
-                >Tin tức</a
-              >
-            </li>
-            <li class="group flex items-center relative overflow-hidden">
-              <div
-                class="
-                  icon-menu
-                  lg:h-[35px]
-                  h-[30px]
-                  flex
-                  space-x-2
-                  duration-500
-                "
-              >
-                <div class="icon-1 w-[7px] h-full bg-pink"></div>
-                <div class="icon-1 w-[15px] h-full bg-pink"></div>
-              </div>
-              <a
-                class="
-                  group-hover:pl-[35px]
-                  block
-                  h2
-                  uppercase
-                  font-bold
-                  group-hover:text-white
-                  duration-500
-                "
-                href="recruit.html"
-                >Tuyển dụng</a
-              >
-            </li>
-            <li class="group flex items-center relative overflow-hidden">
-              <div
-                class="
-                  icon-menu
-                  lg:h-[35px]
-                  h-[30px]
-                  flex
-                  space-x-2
-                  duration-500
-                "
-              >
-                <div class="icon-1 w-[7px] h-full bg-pink"></div>
-                <div class="icon-1 w-[15px] h-full bg-pink"></div>
-              </div>
-              <a
-                class="
-                  group-hover:pl-[35px]
-                  block
-                  h2
-                  uppercase
-                  font-bold
-                  group-hover:text-white
-                  duration-500
-                "
-                href="network.html"
-                >Mạng lưới liên kết</a
-              >
-            </li>
-            <li class="group flex items-center relative overflow-hidden">
-              <div
-                class="
-                  icon-menu
-                  lg:h-[35px]
-                  h-[30px]
-                  flex
-                  space-x-2
-                  duration-500
-                "
-              >
-                <div class="icon-1 w-[7px] h-full bg-pink"></div>
-                <div class="icon-1 w-[15px] h-full bg-pink"></div>
-              </div>
-              <a
-                class="
-                  group-hover:pl-[35px]
-                  block
-                  h2
-                  uppercase
-                  font-bold
-                  group-hover:text-white
-                  duration-500
-                "
-                href="contact.html"
-                >Liên hệ</a
+                <div
+                  class="
+                    icon-menu
+                    lg:h-[35px]
+                    h-[30px]
+                    flex
+                    space-x-2
+                    duration-500
+                  "
+                >
+                  <div class="icon-1 w-[7px] h-full bg-pink"></div>
+                  <div class="icon-1 w-[15px] h-full bg-pink"></div>
+                </div>
+                <span>Tin tức</span></NuxtLink
               >
             </li>
           </ul>
@@ -355,7 +249,7 @@
   </div>
 </template>
 <script>
-// import { mapMutations } from 'vuex'
+import { mapMutations } from 'vuex'
 
 export default {
   data() {
@@ -363,13 +257,13 @@ export default {
       // OpenMenu: false,
     }
   },
-  // computed: {
-  //   OpenMenu: function () {
-  //     return this.$store.state.menu.isOpened
-  //   },
-  // },
-  // methods: {
-  //   ...mapMutations({ toggle: 'menu/toggle' }),
-  // },
+  computed: {
+    OpenMenu: function () {
+      return this.$store.state.menu.isOpened
+    },
+  },
+  methods: {
+    ...mapMutations({ closeMenu: 'menu/closeMenu' }),
+  },
 }
 </script>
