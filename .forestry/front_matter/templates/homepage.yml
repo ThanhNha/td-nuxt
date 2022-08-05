@@ -1,4 +1,20 @@
 ---
 label: Homepage
 hide_body: false
-fields: []
+fields:
+- name: tile
+  type: text
+  config:
+    required: false
+  label: Tile
+  description: Nơi viết tiêu đề cho trang chủ
+- name: summay
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Summay
+  description: Viết chi tiết các mô tả
