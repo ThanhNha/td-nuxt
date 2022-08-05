@@ -24,3 +24,5 @@ fields:
     maxSize: 64
   label: Background
   description: Background here
+pages:
+- home/home-section-1.md
