@@ -25,4 +25,4 @@ fields:
   label: Background
   description: Background here
 pages:
-- home/home-section-1.md
+- content/index.md
