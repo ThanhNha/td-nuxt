@@ -24,3 +24,5 @@ fields:
     maxSize: 64
   label: BackgroundImage
   description: Background Section
+pages:
+- content/nha-d-nh-hinh-phong-cach-th-ng-hi-u-chuyen-nghi-p.md
