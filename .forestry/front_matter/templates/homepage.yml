@@ -2,11 +2,11 @@
 label: Homepage
 hide_body: false
 fields:
-- name: tile
+- name: title
   type: text
   config:
     required: false
-  label: Tile
+  label: Title
   description: Nơi viết tiêu đề cho trang chủ
 - name: summay
   type: textarea
