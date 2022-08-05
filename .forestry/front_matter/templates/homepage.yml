@@ -18,3 +18,5 @@ fields:
       format: markdown
   label: Summay
   description: Viết chi tiết các mô tả
+pages:
+- content/homepage.md
