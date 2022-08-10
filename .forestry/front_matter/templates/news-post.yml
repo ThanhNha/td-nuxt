@@ -35,3 +35,5 @@ fields:
   type: tag_list
   default: []
   label: Tag Category
+pages:
+- content/news/bi-quy-t-c-nh-tranh-nganh-th-i-trang.md
