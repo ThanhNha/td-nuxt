@@ -8,12 +8,32 @@ fields:
     required: false
   label: Title
   description: Viết tiêu đề bài viết ở đây
-- name: summay
-  type: blocks
-  label: summay
-  template_types: []
+- name: excerpt
+  type: textarea
+  default: ''
   config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Excerpt
+  description: Excerpt news here
+- name: slug
+  type: text
+  config:
+    required: false
     min: 
-    max: 
+  label: Slug
+  description: Slug link news
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+  description: Banner of news here
+- name: tag_category
+  type: tag_list
+  default: []
+  label: Tag Category
 pages:
 - content/news/blog1.md
