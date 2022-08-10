@@ -35,5 +35,3 @@ fields:
   type: tag_list
   default: []
   label: Tag Category
-pages:
-- content/news/blog1.md
